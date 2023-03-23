@@ -27,7 +27,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           return CupertinoAlertDialog(
             actions: <Widget>[
               CupertinoDialogAction(
-                child: const Text("newpage"),
+                child: const Text("new page"),
                 onPressed: () {
                   Navigator.of(context).pop();
                   Navigator.of(context).push(
@@ -35,7 +35,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 },
               ),
               CupertinoDialogAction(
-                child: const Text("Scrollingscreen"),
+                child: const Text("Scrolling screen"),
                 onPressed: () {
                   Navigator.of(context).pop();
                   Navigator.of(context).push(CupertinoPageRoute(
